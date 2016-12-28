@@ -25,6 +25,7 @@ checkSystem()
       .command('package', 'Package the current Electron application')
       .command('make', 'Generate distributables for the current Electron application')
       .command('start', 'Start the current Electron application')
+      .command('install', 'Install an Electron application from GitHub')
       .parse(process.argv);
 
     config.reset();
