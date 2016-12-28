@@ -18,6 +18,7 @@ module.exports = {
     { name: 'starter' },
     { name: 'tests' },
     { name: 'initializer' },
+    { name: 'installer' },
     { name: 'generic' },
   ],
   allowCustomScopes: true,
